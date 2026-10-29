@@ -11,8 +11,8 @@ En esta primera etapa se construye la lógica cuántica pura para poner el siste
 
 * **Código de Inicialización :** 'QuantumCircuit(2)' (2 cúbits ).
 * **Puertas Lógicas Aplicadas:**
-* *'h(0)': Compuerta **Hadamar** sobre el cúbit 0 para introducirlo a la superposición perfecta.
-* *'cx(0, 1)': Compuerta **Controlled-x (CNOT)** para entrelazar ambos estados.
+* **'h(0)'**: Compuerta **Hadamar** sobre el cúbit 0 para introducirlo a la superposición perfecta.
+* **'cx(0, 1)'**: Compuerta **Controlled-x (CNOT)** para entrelazar ambos estados.
 * **Estado Cuántico Resultado: Se obtiene matematicamente el estado entrelazado, $|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$, donde el estado de un cúbit depende del otro.
 
 ### 2. Flujo Completo: Medición, Simulación e Histograma
