@@ -13,7 +13,7 @@ En esta primera etapa se construye la lógica cuántica pura para poner el siste
 * **Puertas Lógicas Aplicadas:**
 * *'h(0)': Compuerta **Hadamar** sobre el cúbit 0 para introducirlo a la superposición perfecta.
 * *'cx(0, 1)': Compuerta **Controlled-x (CNOT)** para entrelazar ambos estados.
-* **Estado Cuántico Resultado: Se obtiene matematicamente el estado entrelazado, donde el estado de un cúbit depende del otro.
+* **Estado Cuántico Resultado: Se obtiene matematicamente el estado entrelazado, $|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$, donde el estado de un cúbit depende del otro.
 
 ### 2. Flujo Completo: Medición, Simulación e Histograma
 En esta celda se mapea el comportamiento cuántico a la memoria clasica del computador mediante muestreos repetitivos para analizar sus resultados.
